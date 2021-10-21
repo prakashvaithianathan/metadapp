@@ -1,0 +1,60 @@
+.container-box-shadow{
+  background: rgba(139, 139, 139, 0.178) !important;
+box-shadow: 0 8px 32px 0 rgba(118, 118, 119, 0.171) !important;
+backdrop-filter: blur( 50px ) !important; 
+-webkit-backdrop-filter: blur( 50px ) !important;
+border-radius: 10px !important;
+  padding: 20px !important;
+  border-radius: 20px !important;
+  border: none !important;
+  width: 100% !important;
+  margin: 20px auto !important;
+}
+
+.input-white {
+  background: none !important ;
+color: white !important;
+}
+
+.container-wallet-spacing{
+  padding: 30px 20px !important;
+}
+
+.textarea-black{
+  background: none !important;
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+  padding-top: 20px;
+}
+
+.radio-button-spacing{
+  padding: 30px 0 !important;
+}
+
+.toggle-disable{
+  background: grey !important;
+  cursor:not-allowed !important;
+}
+
+.toggle-enable{
+  background: lightblue !important;
+  cursor:pointer !important;
+}
+
+.button-spacing{
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.logo{
+  padding: 20px;
+  border-radius: 50%;
+  background: white;
+  color: red;
+  margin: 10px;
+}
+
+.description{
+  margin-top: 30px;
+}
